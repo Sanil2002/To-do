@@ -1,0 +1,40 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: radial-gradient(circle, #ff7e5f, #feb47b);
+
+}
+
+.btn {
+  margin-top: 1rem;
+  border: none;
+  background-color: #1d4ed8;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 5px 5px #ccc;
+}
+
+.clock{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: honeydew;
+  margin-bottom: 50px;
+}
+
+.header{
+  font-size: 2rem; 
+  font-weight: bold;
+  background: linear-gradient(to right, #ff7e5f, #feb47b); 
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 0px 0px 3px rgba(0.10, 0.5, 0.2, 0.3);
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px; 
+  margin: 20px; 
+}
